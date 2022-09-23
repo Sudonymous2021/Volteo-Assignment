@@ -1,0 +1,642 @@
+.tabs {
+    position: static;
+    border-color: black;
+    border-style: groove;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 740px;
+    width: 110px;
+}
+
+.head {
+    position: absolute;
+    top: 8px;
+    left: 129px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 80px;
+    width: 1136px;
+}
+
+.crewmate {
+    position: absolute;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 360px;
+    width: 344px;
+    left: 129px;
+    top: 101px;
+}
+
+.shipname {
+    position: absolute;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 276px;
+    width: 344px;
+    left: 129px;
+    top: 472px;
+}
+
+.ahoystream {
+    position: absolute;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 649px;
+    width: 429px;
+    top: 101px;
+    left: 485px;
+    background-color: #D8E6FF;
+}
+
+.myday {
+    position: absolute;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 649px;
+    width: 344px;
+    top: 101px;
+    left: 921px;
+}
+
+.icons {
+
+    position: initial;
+    top: 10px;
+    left: 100px;
+    padding: 18.7px 35px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.icon-name {
+    margin: auto;
+    display: table;
+    text-align: justify;
+    position: relative;
+    padding: 1px 1px;
+    right: 10px;
+    top: 4px;
+    /* border-style: groove;
+    border-color: blue;
+    border-width: 1px; */
+}
+
+.home {
+    background-color: #D8E6FF;
+}
+
+.vessel-symbol {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.vessel-name {
+    font-weight: bold;
+    position: absolute;
+    top: 7px;
+    left: 65px;
+}
+
+.vessel-details {
+    position: absolute;
+    top: 25px;
+    left: 65px;
+    font-size: 13px;
+}
+
+.gmt {
+    font-weight: bold;
+    margin: auto;
+    position: absolute;
+    left: 920px;
+    top: 13px;
+    border-style: groove;
+    border: 1px solid #B4B4BB;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.poweroff {
+    position: absolute;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 100px;
+    top: 20px;
+    left: 1084px;
+    background-color: #D8E6FF;
+}
+
+.hi {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    height: 30px;
+    width: 30px;
+
+}
+
+#divider{
+    position: absolute;
+    top: 230px;
+    left: 17px;
+}
+
+#divider1{
+    position: absolute;
+    top: 162px;
+    left: 19px;
+}
+
+.badge {
+    position: absolute;
+    left: 250px;
+    height: 34px;
+    width: 71px;
+    top: 20px;
+}
+
+.officer-rank {
+    position: absolute;
+    top: 70px;
+    left: 32px;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.crewmate-name {
+    position: absolute;
+    top: 77px;
+    left: 32px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 142px;
+
+}
+
+.crew-id {
+    position: absolute;
+    top: 172px;
+    left: 32px;
+}
+
+.last-activity {
+    position: absolute;
+    top: 255px;
+    left: 32px;
+}
+
+.ship-logo {
+    position: absolute;
+    left: 29px;
+    top: 11px;
+}
+
+.route {
+    position: absolute;
+    height: 28px;
+    width: 182px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    line-height: 28px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    top: 5px;
+    left: 148px;
+}
+
+.facts {
+    position: absolute;
+    height: 38px;
+    top: 72px;
+    left: 30px;
+    width: 150px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.cargo {
+    position: absolute;
+    top: 117px;
+    left: 29px;
+    width: 196px;
+    height: 24px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #5A5B6A;
+}
+
+.nxtprt-1 {
+    position: absolute;
+    left: 29px;
+    right: 134px;
+    top: 185px;
+    bottom: 67px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.44px;
+}
+
+.eta-1 {
+    position: absolute;
+    left: 168px;
+    top: 174px;
+    height: 24px;
+    width: 131px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.nxtprt-2 {
+    position: absolute;
+    left: 29px;
+    right: 174px;
+    top: 209px;
+    bottom: 47px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #5A5B6A;
+}
+
+.eta-2 {
+    position: absolute;
+    left: -3px;
+    right: -25px;
+    top: 209px;
+    left: 168px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #5A5B6A;
+}
+
+.imp-notice {
+    position: absolute;
+    left: 5.13%;
+    right: 4.9%;
+    top: 13.87%;
+    bottom: 62.71%;
+    background-color: #FFFAEC;
+    border-radius: 12px;
+}
+
+#notice {
+    position: absolute;
+    width: 320px;
+    height: 17px;
+    left: 31px;
+    top: 17px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #E95454;
+}
+
+#captain {
+    position: absolute;
+    width: 317px;
+    height: 40px;
+    top: 48px;
+    left: 31px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #19191D;
+}
+
+.read {
+    position: absolute;
+    top: 100px;
+    left: 275px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 99px;
+    height: 25px;
+    width: 90px;
+    font-size: 12px;
+    border: none;
+    background: #E95454;
+    color: #FFFFFF;
+}
+
+#clip {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 18px;
+    top: 14px;
+
+}
+
+#eye {
+    position: absolute;
+    top: 103px;
+    left: 30px;
+}
+
+.card-1 {
+    position: absolute;
+    background-color: white;
+    left: 5.13%;
+    right: 4.9%;
+    top: 39.14%;
+    bottom: 37.44%;
+    border-radius: 12px;
+}
+
+.card-2 {
+    position: absolute;
+    left: 5.13%;
+    right: 4.9%;
+    top: 64.41%;
+    bottom: 12.17%;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.card-3 {
+    position: absolute;
+    width: 386px;
+    height: 67px;
+    left: 21px;
+    top: 582px;
+    border-radius: 12px;
+
+    background: #FFFFFF;
+    border-radius: 12px 12px 0px 0px;
+}
+
+#card-one {
+    position: absolute;
+    top: 27px;
+    left: 30px;
+    width: 335px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #213838;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+#timesnap-1 {
+    position: absolute;
+    right: 25px;
+    top: 112px;
+    bottom: 20px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.25px;
+    color: #5A5B6A;
+}
+
+#card-two {
+    position: absolute;
+    top: 27px;
+    left: 30px;
+    width: 335px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #213838;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+#timesnap-2 {
+    position: absolute;
+    right: 25px;
+    top: 112px;
+    bottom: 20px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.25px;
+    color: #5A5B6A;
+}
+
+#refresh {
+    position: absolute;
+    top: 23px;
+    left: 395px;
+}
+
+.check1 {
+    position: absolute;
+    width: 296px;
+    height: 65px;
+    left: 24px;
+    top: 85px;
+    background: #F9F9F9;
+    border-radius: 8px;
+}
+
+.check2 {
+
+    position: absolute;
+    width: 296px;
+    height: 65px;
+    left: 24px;
+    top: 159px;
+    background: #F9F9F9;
+    border: 1px solid #E95454;
+    border-radius: 8px;
+}
+
+.check3 {
+    position: absolute;
+    width: 296px;
+    height: 65px;
+    left: 24px;
+    top: 233px;
+
+    background: #F9F9F9;
+    border-radius: 8px;
+}
+
+.check4 {
+    position: absolute;
+    width: 296px;
+    height: 65px;
+    left: 24px;
+    top: 307px;
+
+    background: #F9F9F9;
+    border-radius: 8px;
+}
+
+.check5 {
+    position: absolute;
+    width: 296px;
+    height: 65px;
+    left: 24px;
+    top: 381px;
+
+    background: #F9F9F9;
+    border-radius: 8px;
+}
+
+#cloud {
+    position: absolute;
+    top: 18px;
+    left: 292px;
+}
+
+#day {
+    position: absolute;
+    height: 36px;
+    width: 160px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #19191D;
+    top: 12px;
+    left: 26px;
+}
+
+#date {
+    position: absolute;
+    height: 29px;
+    width: 357px;
+    top: 43px;
+    left: 26px;
+    color: #5A5B6A;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#checkfill {
+    position: absolute;
+    top: 17px;
+    left: 12px;
+}
+
+.checkempty {
+    position: absolute;
+    top: 17px;
+    left: 12px;
+}
+
+.addreminder {
+    position: absolute;
+    box-sizing: border-box;
+    position: absolute;
+    width: 301px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 0.5px solid #787885;
+    border-radius: 8px;
+    bottom: 18px;
+    left: 22px;
+}
+
+.threedot {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+}
+
+#plus {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+
+#reminder {
+    position: absolute;
+    height: 18px;
+    left: 56px;
+    right: 122px;
+    top: 5px;
+
+    color: #787885;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.check-text {
+    position: absolute;
+    top: 1px;
+    left: 54px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.check-text-1 {
+    position: absolute;
+    top: 33px;
+    left: 54px;
+    font-size: 10px;
+}
